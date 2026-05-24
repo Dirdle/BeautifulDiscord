@@ -108,11 +108,11 @@ class DiscordProcess:
 
     @property
     def script_file(self):
-        return os.path.join(self.script_path, 'core', 'app', 'mainScreen.js')
+        return os.path.join(self.script_path, 'core', 'mainScreen.js')
 
     @property
     def preload_script(self):
-        return os.path.join(self.script_path, 'core', 'app', 'mainScreenPreload.js')
+        return os.path.join(self.script_path, 'core', 'mainScreenPreload.js')
 
 
 def extract_asar():
